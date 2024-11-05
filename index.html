@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página Principal - WebApp</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Contenedor principal -->
+    <div class="container-fluid d-flex justify-content-center align-items-center min-vh-100">
+        <div class="text-center">
+            <h1 class="display-4">Ahorra Guita</h1>
+            <p class="lead">Encontra el mejor precio para tu producto fácilmente</p>
+            
+            <!-- Área de búsqueda -->
+            <div class="input-group mb-3" style="max-width: 600px;">
+                <input type="text" class="form-control" placeholder="Buscar..." aria-label="Buscar" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="button" id="button-addon2">Buscar</button>
+                </div>
+            </div>
+            
+            <!-- Enlace para iniciar sesión -->
+            <p class="mt-3">
+                <a href="/login.html" class="text-muted">¿No tienes cuenta? Inicia sesión</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
